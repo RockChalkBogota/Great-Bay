@@ -12,7 +12,7 @@ var connectionString = require('./connectionstrings.js');
 function postItem() {
     console.log("Posting a new item...\n");
     var query = connection.query(
-    "INSERT INTO products SET ?",
+    "INSERT INTO items SET ?",
     {
         title:
         type:
